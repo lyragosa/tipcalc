@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4949DE41BD6318E000F3A1A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B4949DE31BD6318E000F3A1A /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		B4949DE61BD631BA000F3A1A /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = B4949DE51BD631BA000F3A1A /* readme.md */; settings = {ASSET_TAGS = (); }; };
 		B4A9ABEA1BD4DB59009F88A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9ABE91BD4DB59009F88A7 /* AppDelegate.swift */; };
 		B4A9ABEC1BD4DB59009F88A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9ABEB1BD4DB59009F88A7 /* ViewController.swift */; };
 		B4A9ABEF1BD4DB59009F88A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A9ABED1BD4DB59009F88A7 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4949DE31BD6318E000F3A1A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4949DE51BD631BA000F3A1A /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		B4A9ABE61BD4DB59009F88A7 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A9ABE91BD4DB59009F88A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A9ABEB1BD4DB59009F88A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		B4A9ABDD1BD4DB59009F88A7 = {
 			isa = PBXGroup;
 			children = (
+				B4949DE51BD631BA000F3A1A /* readme.md */,
+				B4949DE31BD6318E000F3A1A /* LICENSE */,
 				B4A9ABE81BD4DB59009F88A7 /* TipCalc */,
 				B4A9ABFD1BD4DB59009F88A7 /* TipCalcTests */,
 				B4A9AC081BD4DB5A009F88A7 /* TipCalcUITests */,
@@ -236,6 +242,7 @@
 			files = (
 				B4A9ABF41BD4DB59009F88A7 /* LaunchScreen.storyboard in Resources */,
 				B4A9ABF11BD4DB59009F88A7 /* Assets.xcassets in Resources */,
+				B4949DE41BD6318E000F3A1A /* LICENSE in Resources */,
 				B4A9ABEF1BD4DB59009F88A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +270,7 @@
 			files = (
 				B4A9ABEC1BD4DB59009F88A7 /* ViewController.swift in Sources */,
 				B4A9AC181BD4E571009F88A7 /* TipCalcModel.swift in Sources */,
+				B4949DE61BD631BA000F3A1A /* readme.md in Sources */,
 				B4A9ABEA1BD4DB59009F88A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
