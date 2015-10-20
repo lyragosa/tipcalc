@@ -52,7 +52,7 @@
 		B4A9AC051BD4DB59009F88A7 /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A9AC091BD4DB5A009F88A7 /* TipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcUITests.swift; sourceTree = "<group>"; };
 		B4A9AC0B1BD4DB5A009F88A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A9AC171BD4E571009F88A7 /* TipCalcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalcModel.swift; sourceTree = SOURCE_ROOT; };
+		B4A9AC171BD4E571009F88A7 /* TipCalcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalcModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4949DE71BD6358B000F3A1A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
 		B4A9ABDD1BD4DB59009F88A7 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +112,7 @@
 		B4A9ABE81BD4DB59009F88A7 /* TipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				B4949DE71BD6358B000F3A1A /* Application */,
 				B4A9AC171BD4E571009F88A7 /* TipCalcModel.swift */,
 				B4A9ABE91BD4DB59009F88A7 /* AppDelegate.swift */,
 				B4A9ABEB1BD4DB59009F88A7 /* ViewController.swift */,
